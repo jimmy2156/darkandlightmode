@@ -2,9 +2,9 @@
 import group from "../images/reactjs.png"
 
 
-export default function Header() {
+export default function Header(props) {
     return (
-        <div className="header">
+        <div className={props.darkMode ? "darkheader" : "header1"}>
             <h1 className="heading3">Fun Facts about React</h1>
             <ul>
             <li className="heading44">Was first released in 2013</li>
