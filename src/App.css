@@ -100,3 +100,58 @@
     margin-right: 20px;
 
 }
+.heading3 {
+    font-size: 80px;
+    margin-left: 50px;
+    font-weight: bolder;
+    
+}
+li {
+    font-size: 25px;
+    margin-left: 80px;
+    font-weight: 500;
+    line-height: 60px;
+    
+}
+ul {
+  list-style: none;
+  margin-top: -20px;
+  
+}
+li::before {
+  content: "• ";
+  color: #27cfed;
+}
+.logoimg {
+  color: #F5F5F5;
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 200px;
+  height: 500px;
+  
+}
+.header2 {
+  background-color: #282D35;
+}
+.heading4 {
+  font-size: 80px;
+  margin-left: 50px;
+  font-weight: bolder;
+  color: #ffff;
+  
+}
+.ul2 {
+  
+    list-style: none;
+    margin-top: -20px;
+    color: #ffff;
+    
+}
+.logoimg1 {
+  position: absolute;
+  top: 200px;
+  right: 0;
+  width: 200px;
+  height: 500px;
+}
